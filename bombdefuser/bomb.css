@@ -1,0 +1,49 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.timer-container {
+  background-color: #2d343e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.timer-display {
+  color: #61dafb;
+  font-size: 50px;
+  margin-top: 20px;
+}
+
+.user-input {
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.defuse-btn {
+  background-color: #61dafb;
+  color: #282c34;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.defuse-btn:hover {
+  background-color: #45a1e5;
+}
